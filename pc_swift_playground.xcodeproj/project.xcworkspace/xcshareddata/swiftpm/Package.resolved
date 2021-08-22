@@ -5,9 +5,9 @@
         "package": "PCCommon",
         "repositoryURL": "https://github.com/branch10480/PCCommonSwift.git",
         "state": {
-          "branch": "main",
-          "revision": "96f1914f9a6acdde12cb0a67f31b59a0fed03c17",
-          "version": null
+          "branch": null,
+          "revision": "e6c1e73af3eb13552760fc679209b1aa06335e4d",
+          "version": "0.1.1"
         }
       }
     ]

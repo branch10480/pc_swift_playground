@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		483A33C626D22D2A00E36FB4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A33C526D22D2A00E36FB4 /* main.swift */; };
-		483A33D126D22E7F00E36FB4 /* PCCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 483A33D026D22E7F00E36FB4 /* PCCommon */; };
+		483A33D426D23AA400E36FB4 /* PCCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 483A33D326D23AA400E36FB4 /* PCCommon */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				483A33D126D22E7F00E36FB4 /* PCCommon in Frameworks */,
+				483A33D426D23AA400E36FB4 /* PCCommon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +81,7 @@
 			);
 			name = pc_swift_playground;
 			packageProductDependencies = (
-				483A33D026D22E7F00E36FB4 /* PCCommon */,
+				483A33D326D23AA400E36FB4 /* PCCommon */,
 			);
 			productName = pc_swift_playground;
 			productReference = 483A33C226D22D2A00E36FB4 /* pc_swift_playground */;
@@ -111,7 +111,7 @@
 			);
 			mainGroup = 483A33B926D22D2A00E36FB4;
 			packageReferences = (
-				483A33CF26D22E7F00E36FB4 /* XCRemoteSwiftPackageReference "PCCommonSwift" */,
+				483A33D226D23AA400E36FB4 /* XCRemoteSwiftPackageReference "PCCommonSwift" */,
 			);
 			productRefGroup = 483A33C326D22D2A00E36FB4 /* Products */;
 			projectDirPath = "";
@@ -295,20 +295,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		483A33CF26D22E7F00E36FB4 /* XCRemoteSwiftPackageReference "PCCommonSwift" */ = {
+		483A33D226D23AA400E36FB4 /* XCRemoteSwiftPackageReference "PCCommonSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/branch10480/PCCommonSwift.git";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		483A33D026D22E7F00E36FB4 /* PCCommon */ = {
+		483A33D326D23AA400E36FB4 /* PCCommon */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 483A33CF26D22E7F00E36FB4 /* XCRemoteSwiftPackageReference "PCCommonSwift" */;
+			package = 483A33D226D23AA400E36FB4 /* XCRemoteSwiftPackageReference "PCCommonSwift" */;
 			productName = PCCommon;
 		};
 /* End XCSwiftPackageProductDependency section */
