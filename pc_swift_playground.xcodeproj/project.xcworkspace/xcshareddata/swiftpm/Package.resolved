@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "PCCommon",
+        "repositoryURL": "https://github.com/branch10480/PCCommonSwift.git",
+        "state": {
+          "branch": "main",
+          "revision": "96f1914f9a6acdde12cb0a67f31b59a0fed03c17",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
