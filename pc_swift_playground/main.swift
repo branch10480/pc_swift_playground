@@ -1,10 +1,8 @@
 import Foundation
 import PCCommon
 
-// Declear main functions.
-func main1() {
-  print(readLineString())
-}
+defer { main() }
 
-// Execute a specific main function.
-main1()
+// MARK: - Main
+func main() {
+}
